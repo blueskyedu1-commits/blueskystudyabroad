@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic"
 import { supabase } from '@/lib/supabase'
 import CourseCard from '@/components/CourseCard'
 import Link from 'next/link'
@@ -163,3 +164,4 @@ export default async function CoursesPage({ searchParams }: { searchParams: Sear
     </div>
   )
 }
+
